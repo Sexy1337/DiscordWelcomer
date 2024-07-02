@@ -23,7 +23,7 @@ client.on('ready', () => {
       const memberCount = guild.memberCount;
       const embed = new EmbedBuilder()
         .setColor('#000000')
-        .setTitle(`Welcome to the server, ${member.user.username}!`)
+        .setTitle(`Welcome to Death, ${member.user.username}!`)
         .setDescription(`We're glad you're here.`)
         .setThumbnail(member.user.displayAvatarURL())
         .addFields(
